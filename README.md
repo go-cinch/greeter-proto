@@ -1,5 +1,15 @@
 # Reason Proto
 
+## add
 ```shell
-git submodule add -b master --name api/greeter https://github.com/go-cinch/greeter-proto.git ./api/greeter
+# normal add
+git submodule add -b master --name api/greeter-proto https://github.com/go-cinch/greeter-proto.git ./api/greeter-proto
+
+# or force add
+git submodule add -f -b master --name api/greeter-proto https://github.com/go-cinch/greeter-proto.git ./api/greeter-proto
+```
+
+## update
+```shell
+git submodule update --force --recursive --init --remote
 ```
