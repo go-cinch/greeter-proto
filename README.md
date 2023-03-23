@@ -1,4 +1,4 @@
-# Reason Proto
+# Greeter Proto
 
 ## add
 ```shell
